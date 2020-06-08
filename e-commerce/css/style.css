@@ -1,0 +1,489 @@
+body{
+    background-color: rgb(194, 197, 224);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    height: 110px;
+    width: 100%;
+    background-color: rgb(122, 182, 238);
+}
+#link{
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+#link ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#link ul li{
+    float: right;
+    margin-right: 30px;
+    line-height: 30px;
+}
+#link ul li a{
+    text-decoration: none;
+    color: rgb(9, 64, 116);
+}
+#link ul li a:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(47, 48, 48, 0.541);
+    background: #ffffff ;
+    color: rgb(9, 64, 116);
+}
+#link ul li form{
+    box-shadow: 2px 2px 2px rgba(47, 48, 48, 0.541);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 10px;
+    display: none !important;
+}
+#link ul li form table tr td{
+    color: #ffff;
+    margin-right: 100px;
+
+}
+#link ul li form input{
+    width: 48%;
+    outline: none;
+    color: rgb(5, 25, 43);
+    background-color: #ffff;
+    border-radius: 4px;
+}
+#link ul li form table tr td input{
+    margin-left: 30px !important;
+    width: 200px;
+    border-radius: 3px;
+}
+#link ul li form table tr td textarea{
+    margin-left: 30px !important;
+    width: 200px;
+    border-radius: 3px;
+}
+#link ul li:hover form{
+    padding-left: 50px;
+    display: block !important;
+    position: absolute !important;
+    background: rgb(9, 64, 116) !important;
+    margin-left: -370px !important;
+}
+#buy_form{
+    box-sizing: border-box;
+    width: 100%;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    float: left;
+    border-radius: 3px;
+}
+#buy_form ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+#buy_form ul li{
+    float: left;
+    margin-left: 30px;
+    line-height: 30px;
+}
+#buy_form ul li h3{
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 10px;
+    margin-left: 535px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(9, 64, 116);
+    color: #ffff;
+    padding-left: 10px;
+}
+#buy_form ul li form{
+    box-shadow: 2px 2px 2px rgba(47, 48, 48, 0.541);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 540px;
+    background: rgb(9, 64, 116);
+
+}
+#buy_form ul li form table tr td{
+    color: #ffff;
+    margin-right: 100px;
+
+}
+#buy_form ul li form input{
+    width: 100%;
+    outline: none;
+    color: rgb(5, 25, 43);
+    background-color: #ffff;
+    border-radius: 4px;
+}
+
+#search{
+    padding-left: 50px;
+}
+#cart{
+    padding-left: 50px;
+}
+#search form input{
+    padding-left: 2%;
+    width: 55%;
+    height: 35px;
+    outline: none;
+    border-width: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+} 
+#search_btn{
+    height: 35px;
+    width: 10%;
+    background-color: rgb(9, 64, 116);
+    color: #ffffff;
+    border-width: 0px;
+    font-weight: bold;
+    margin-left: -10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.cart{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    background: #ffff;
+    min-height: 700px;
+}
+.cart form table{
+    width: 100%;
+}
+.cart form table tr th{
+    font-size: 16px;
+    background: rgba(159, 181, 202, 0.534);
+    height: 40px;
+    color: rgba(8, 27, 56, 0.589);
+    text-align: left;
+    padding-left: 1%;
+}
+.cart form table tr td{
+    font-size: 16px;
+    height: 60px;
+    padding-left: 1.2%;
+}
+.cart form table tr td input[type=text]{
+    padding-left: 1%;
+    width: 12%;
+    height: 30px;
+}
+.cart form table tr td input[type=submit]{
+    background: rgb(168, 8, 30);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 30px;
+    border: 1px solid rgb(168, 8, 30);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.cart form table tr td input[type=submit]:hover{
+    background: rgb(221, 25, 52);
+}
+.cart form table tr td img{
+    height: 50px;
+    width: 50px;
+}
+.cart_buy{
+    width: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+    background: #ffff;
+    min-height: 300px;
+}
+.cart_buy form table{
+    width: 100%;
+}
+.cart_buy form table tr th{
+    font-size: 16px;
+    background: rgba(159, 181, 202, 0.534);
+    height: 40px;
+    color: rgba(8, 27, 56, 0.589);
+    text-align: left;
+    padding-left: 1%;
+}
+.cart_buy form table tr td{
+    font-size: 16px;
+    height: 60px;
+    padding-left: 1.2%;
+}
+.cart_buy form table tr td input[type=text]{
+    padding-left: 1%;
+    width: 12%;
+    height: 30px;
+}
+.cart_buy form table tr td input[type=submit]{
+    background: rgb(168, 8, 30);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 30px;
+    border: 1px solid rgb(168, 8, 30);
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.cart_buy form table tr td input[type=submit]:hover{
+    background: rgb(221, 25, 52);
+}
+.cart_buy form table tr td img{
+    height: 50px;
+    width: 50px;
+}
+
+#cart_btn{
+    height: 35px;
+    width: 10%;
+    background-color: rgb(9, 64, 116);
+    color: #ffffff;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#cart_btn a{
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+}
+#navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(9, 64, 116);
+
+}
+#navbar ul{
+    list-style-type: none;
+}
+#navbar ul li{
+    padding: 1%;
+    float: left;
+}
+#navbar ul li:hover{
+    background-color: rgba(97, 156, 212, 0.541) ;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#bodyleft{
+    padding: 1%;
+    width: 70%;
+    margin: 1%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#bodyleft ul{
+    list-style-type: none;
+}
+#bodyleft ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+#bodyleft ul li a h4{
+    margin-top: 5px;
+    text-align: center;
+}
+#bodyleft ul li a img{
+    margin-top: 5px;
+    width: 100%;
+    height: 280px;
+    margin-bottom: 5px;
+}
+#pro_btn{
+    box-shadow: 1px 1px 1px black;
+    color: #ffff;
+    background: rgb(9, 64, 116);
+    border: 1px solid none ;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+}
+
+#pro_btn:hover{
+    background: rgb(168, 8, 30);
+}
+#pro_btn:hover a{
+    color: #ffff;
+}
+#pro_img{
+    padding: 1%;
+    box-sizing: border-box;
+    width: 35%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+#pro_img img{
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+}
+#pro_feature{
+    box-sizing: border-box;
+    width: 35%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    float: left;
+    border-radius: 3px;
+}
+#pro_feature h3{
+    height: 35px;
+    border-bottom: 1px solid rgb(9, 64, 116);
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(9, 64, 116);
+}
+#pro_feature ul{
+    margin-top: 10px;
+}
+#pro_feature ul li{
+    color: rgb(9, 64, 116);
+    height: 20px;
+}
+#pro_feature h4{
+    color: rgb(4, 34, 61);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#buy_now{
+    color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    background: rgb(4, 34, 61);
+
+}
+#buy_now:hover{
+    background: rgb(168, 8, 30);
+
+}
+#buy_now a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#sim_pro{
+    background: #ffffff;
+    width: 100%;
+    height: 380px;
+}
+#sim_pro h4{
+    background: rgb(9, 64, 116);
+    color: #ffff;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 2%;
+
+}
+#sim_pro ul{
+    list-style-type: none;
+}
+#sim_pro ul li{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0.5%;
+    width: 180px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#sim_pro ul li:hover{
+    border: 2px solid rgb(9, 64, 116);
+    border-radius: 3px;
+}
+#sim_pro ul li a img{
+    width: 180px;
+    height: 250px;
+}
+#sim_pro ul li a{
+    text-decoration: none;
+    color: rgb(4, 34, 61);
+}
+#sim_pro ul li a p{
+    text-align: center;
+
+}
+#bodyleft h3{
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background: rgb(9, 64, 116);
+    color: #ffff;
+    padding-left: 5%;
+}
+#bodyleft ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-left: 1%;
+    float: left;
+    width: 30%;
+    height: 390px;
+    border: 3px solid rgb(9, 64, 116);
+}
+#bodyright{
+    width: 25%;
+    margin: 0% 1% 1% 0%;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 3px;
+    height: 500px;
+    margin-top: 15px;
+
+}
+#bodyright h3{
+    box-shadow: 3px 3px 3px black;
+    text-shadow: 2px 2px 2px black;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(9, 64, 116);
+    color: #ffff;
+    padding-left: 5%;
+}
+#bodyright ul{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#bodyright ul li{
+    color: rgb(9, 64, 116);
+}
+#bodyright ul li a{
+    text-decoration: none;
+    color: rgb(9, 64, 116);
+    padding: 10px;
+    height: 35px;
+}
+#slider{
+    width: 100%;
+    height: 350px;
+}
+#slider img{
+    width: 100%;
+    height: 350px;
+    border-radius: 3px;
+
+}
+#footer{
+    width: 100%;
+    height: 35px;
+    background-color:rgb(9, 64, 116) ;
+    clear: both;
+}
+#footer h4{
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+}
